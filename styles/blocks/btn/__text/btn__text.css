@@ -3,4 +3,5 @@
   font-family: Arial;
   font-size: 1.4rem;
   color: var(--color-neutral-0);
+  user-select: none;
 }

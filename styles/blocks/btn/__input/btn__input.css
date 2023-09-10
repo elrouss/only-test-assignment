@@ -4,8 +4,13 @@
   opacity: 0;
 }
 
+.btn__input:checked + .btn__label::before {
+  opacity: 1;
+}
+
 .btn__input:checked + .btn__label .btn__label-wrapper {
-  padding: 12.46px 15px;
+  padding: 12.46px 15.17px;
+  border-radius: var(--radius-btn);
 }
 
 .btn__input:checked + .btn__label .btn__label-wrapper .btn__icon::before {
