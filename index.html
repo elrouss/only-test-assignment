@@ -11,163 +11,28 @@
 
   <body class="body">
     <main class="main">
-      <section class="map">
-        <div class="btn btn_place_pier">
-          <input
-            class="btn__input"
-            id="pier"
-            type="checkbox"
-            aria-label="Посмотреть подпись кнопки"
-          />
-          <label class="btn__label btn__label_color_blue" for="pier">
-            <span class="btn__label-wrapper">
-              <span class="btn__icon"></span>
-              <span class="btn__text">Пирс</span>
-            </span>
-          </label>
-        </div>
-
-        <div class="btn btn_place_stadium">
-          <input
-            class="btn__input"
-            id="stadium"
-            type="checkbox"
-            aria-label="Посмотреть подпись кнопки"
-          />
-          <label class="btn__label btn__label_color_green" for="stadium">
-            <span class="btn__label-wrapper">
-              <span class="btn__icon"></span>
-              <span class="btn__text">Стадион</span>
-            </span>
-          </label>
-        </div>
-
-        <div class="btn btn_place_office">
-          <input
-            class="btn__input"
-            id="office"
-            type="checkbox"
-            aria-label="Посмотреть подпись кнопки"
-          />
-          <label class="btn__label btn__label_color_blue" for="office">
-            <span class="btn__label-wrapper">
-              <span class="btn__icon"></span>
-              <span class="btn__text">Офис</span>
-            </span>
-          </label>
-        </div>
-
-        <div class="btn btn_place_residential-area">
-          <input
-            class="btn__input"
-            id="residential-area"
-            type="checkbox"
-            aria-label="Посмотреть подпись кнопки"
-          />
-          <label
-            class="btn__label btn__label_color_blue"
-            for="residential-area"
-          >
-            <span class="btn__label-wrapper">
-              <span class="btn__icon"></span>
-              <span class="btn__text">Жилой квартал</span>
-            </span>
-          </label>
-        </div>
-
-        <div class="btn btn_place_railway">
-          <input
-            class="btn__input"
-            id="railway"
-            type="checkbox"
-            aria-label="Посмотреть подпись кнопки"
-          />
-          <label class="btn__label btn__label_color_green" for="railway">
-            <span class="btn__label-wrapper">
-              <span class="btn__icon"></span>
-              <span class="btn__text">Вокзал</span>
-            </span>
-          </label>
-        </div>
-
-        <div class="btn btn_place_bar">
-          <input
-            class="btn__input"
-            id="bar"
-            type="checkbox"
-            aria-label="Посмотреть подпись кнопки"
-          />
-          <label class="btn__label btn__label_color_blue" for="bar">
-            <span class="btn__label-wrapper">
-              <span class="btn__icon"></span>
-              <span class="btn__text">Бар</span>
-            </span>
-          </label>
-        </div>
-
-        <div class="btn btn_place_hotel">
-          <input
-            class="btn__input"
-            id="hotel"
-            type="checkbox"
-            aria-label="Посмотреть подпись кнопки"
-          />
-          <label class="btn__label btn__label_color_green" for="hotel">
-            <span class="btn__label-wrapper">
-              <span class="btn__icon"></span>
-              <span class="btn__text">Отель</span>
-            </span>
-          </label>
-        </div>
-
-        <div class="btn btn_place_bank">
-          <input
-            class="btn__input"
-            id="bank"
-            type="checkbox"
-            aria-label="Посмотреть подпись кнопки"
-          />
-          <label class="btn__label btn__label_color_blue" for="bank">
-            <span class="btn__label-wrapper">
-              <span class="btn__icon"></span>
-              <span class="btn__text">Банк</span>
-            </span>
-          </label>
-        </div>
-
-        <div class="btn btn_place_restaurant">
-          <input
-            class="btn__input"
-            id="restaurant"
-            type="checkbox"
-            aria-label="Посмотреть подпись кнопки"
-          />
-          <label class="btn__label btn__label_color_green" for="restaurant">
-            <span class="btn__label-wrapper">
-              <span class="btn__icon"></span>
-              <span class="btn__text">Ресторан</span>
-            </span>
-          </label>
-        </div>
-
-        <div class="btn btn_place_factory">
-          <input
-            class="btn__input"
-            id="factory"
-            type="checkbox"
-            aria-label="Посмотреть подпись кнопки"
-          />
-          <label class="btn__label btn__label_color_blue" for="factory"
-            ><span class="btn__label-wrapper">
-              <span class="btn__icon"></span>
-              <span class="btn__text">Завод</span>
-            </span></label
-          >
-        </div>
-      </section>
+      <section class="map"></section>
     </main>
 
+    <template class="btn-template">
+      <div class="btn">
+        <input
+          class="btn__input"
+          id=""
+          type="checkbox"
+          aria-label="Посмотреть подпись кнопки"
+        />
+        <label class="btn__label" for=""
+          ><span class="btn__label-wrapper">
+            <span class="btn__icon"></span>
+            <span class="btn__text"></span>
+          </span></label
+        >
+      </div>
+    </template>
+
     <script src="./scripts/utils/constants.js"></script>
+    <script src="./scripts/utils/data/btns.js"></script>
     <script src="./scripts/pages/index.js"></script>
   </body>
 </html>
