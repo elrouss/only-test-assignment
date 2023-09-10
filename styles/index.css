@@ -1,1 +1,20 @@
 @import url(../assets/vendors/normalize.css);
+@import url(./variables/variables.css);
+
+@import url(./blocks/map/map.css);
+
+@import url(./blocks/btn/btn.css);
+@import url(./blocks/btn/_place/btn_place_bank.css);
+@import url(./blocks/btn/_place/btn_place_bar.css);
+@import url(./blocks/btn/_place/btn_place_factory.css);
+@import url(./blocks/btn/_place/btn_place_hotel.css);
+@import url(./blocks/btn/_place/btn_place_office.css);
+@import url(./blocks/btn/_place/btn_place_pier.css);
+@import url(./blocks/btn/_place/btn_place_railway.css);
+@import url(./blocks/btn/_place/btn_place_residential-area.css);
+@import url(./blocks/btn/_place/btn_place_restaurant.css);
+@import url(./blocks/btn/_place/btn_place_stadium.css);
+@import url(./blocks/btn/__input/btn__input.css);
+@import url(./blocks/btn/__label/btn__label.css);
+@import url(./blocks/btn/__label/_color/btn__label_color_blue.css);
+@import url(./blocks/btn/__label/_color/btn__label_color_green.css);

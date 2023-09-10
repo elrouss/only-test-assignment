@@ -1,0 +1,16 @@
+.map {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../../../assets/images/carnaby.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.map::before {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg-image-mask);
+  opacity: 0.4;
+}

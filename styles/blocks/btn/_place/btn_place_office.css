@@ -1,0 +1,11 @@
+.btn_place_office {
+  top: 66.02%;
+  left: 82.97%;
+}
+
+/*
+@media screen and (max-width: 1919px) {
+  .btn_place_office {
+    left: calc(10.23% + (315.078 + 315.078 * 1.35) * (100vw - 1280px) / 1919);
+  }
+} */
