@@ -1,0 +1,7 @@
+.btn__label-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  padding: 15.5px;
+}

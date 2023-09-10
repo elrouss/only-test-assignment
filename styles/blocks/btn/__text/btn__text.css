@@ -1,0 +1,6 @@
+.btn__text {
+  display: none;
+  font-family: Arial;
+  font-size: 1.4rem;
+  color: var(--color-neutral-0);
+}
