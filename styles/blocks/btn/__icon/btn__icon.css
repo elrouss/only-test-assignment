@@ -4,7 +4,6 @@
   align-items: center;
   width: 10px;
   height: 10px;
-  border-radius: var(--radius-btn);
 }
 
 .btn__icon::before {
