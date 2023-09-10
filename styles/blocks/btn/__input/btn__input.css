@@ -20,3 +20,11 @@
 .btn__input:checked + .btn__label .btn__label-wrapper .btn__text {
   display: inline-block;
 }
+
+.btn__input:focus-visible + .btn__label {
+  outline: 0.5px solid var(--color-neutral-0);
+}
+
+.btn__input:checked:focus-visible + .btn__label {
+  outline: 0.5px solid var(--color-neutral-0);
+}
