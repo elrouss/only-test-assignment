@@ -4,6 +4,7 @@
 @import url(./blocks/html/html.css);
 
 @import url(./blocks/map/map.css);
+@import url(./blocks/map/__markers/map__markers.css);
 
 @import url(./blocks/btn/btn.css);
 @import url(./blocks/btn/_place/btn_place_bank.css);

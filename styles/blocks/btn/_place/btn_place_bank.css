@@ -1,11 +1,4 @@
 .btn_place_bank {
-  top: 43.98%;
-  left: 73.65%;
+  top: 39.6%;
+  left: 83.65%;
 }
-
-
-/* @media screen and (max-width: 1919px) {
-  .btn_place_bank {
-    left: calc(86.65% + (-304.88 - 304.88 * 1.35) * (100vw - 1280px) / 1919);
-  }
-} */

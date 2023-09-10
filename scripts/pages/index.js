@@ -20,7 +20,7 @@ const createBtn = ({ id, label, color }) => {
 
 const renderBtns = () => {
   btnsData.forEach((btn) => {
-    backgroundImage.append(createBtn(btn));
+    markers.append(createBtn(btn));
   })
 }
 renderBtns();
@@ -28,7 +28,8 @@ renderBtns();
 const btns = document.querySelectorAll('.btn__input');
 
 const closeBtnsOnBackground = (evt) => {
-  if (evt.target.classList.contains('map')) {
+  if (evt.target.classList.contains('map')
+  || evt.target.classList.contains('map__markers')) {
     btns.forEach((btn) => (btn.checked ? btn.checked = false : btn.checked));
   }
 };
